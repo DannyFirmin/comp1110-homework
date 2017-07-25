@@ -17,5 +17,4 @@ will run.
 ### Updating
 
 The homework exercises may be updated during the semester.   If so, an annoucement
-will be made.  To see the updates you should do an 'upstream pull' (which is explained in [lab 2](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs/blob/master/src/comp1110/lab2/README.md#gitlab-task)
-on this repo).
+will be made.  To see the updates you should do an 'upstream pull' (explained in [lab 2](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs/blob/master/src/comp1110/lab2/README.md#gitlab-task)) on this repo.
