@@ -1,7 +1,8 @@
 ### Purpose
 
 These homework exercises are designed to help you learn.   You may do them at
-your own pace.
+your own pace.   The exercises are not marked, but you are welcome to ask
+your tutor for help during your scheduled lab sessions.
 
 The exercises form the basis for the two lab exams, each of which will be
 composed of questions randomly drawn from the homework set.
@@ -17,4 +18,4 @@ will run.
 
 The homework exercises may be updated during the semester.   If so, an annoucement
 will be made.  To see the updates you should do an 'upstream pull' (which is explained in [lab 2](https://gitlab.cecs.anu.edu.au/comp1110/comp1110-labs/blob/master/src/comp1110/lab2/README.md#gitlab-task)
-on this repo.
+on this repo).
