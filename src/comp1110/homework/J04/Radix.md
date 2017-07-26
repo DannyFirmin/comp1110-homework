@@ -1,7 +1,7 @@
 Within the `comp1110.homework.J04` package of the `comp1110-homework` project,
 create a class `Radix` that is able to convert numbers between
 different radices (also known as bases) (for simplicity we
-restrict the possible radices to 2, 3, 4, ... , 10). The
+restrict the possible radices to 2, 3, 4, ... , 16). The
 program should read in three variables from the console one
 line after another; an integer, the source base, an integer,
 the destination base, and a string. The program should
