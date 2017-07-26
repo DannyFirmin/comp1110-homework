@@ -4,7 +4,7 @@ and then prints out your name in upper case (hint: use the
 `toUpperCase()` method of `String`), and then on a new line,
 print the number of characters in your name. e.g. if your
 name is Bill the program should print out `BILL` on one line
-and `4` on the next. Test your solution using the `NameTest`
+and `4` on the next. Test your solution using the `J04`
 test.
 
 Once you have it working, add and commit your work.

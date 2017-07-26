@@ -11,7 +11,7 @@ interpret the string as a number in source base and output
  was 3 and the destination base was 5. Then if the string
  was 21, then `12` should be printed. You do not need to
  handle negative numbers. Test your solution using the
- `RadixTest` test.
+ `J04` test.
 
 
  Once you have it working, add and commit your work.

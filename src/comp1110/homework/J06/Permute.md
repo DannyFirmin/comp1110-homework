@@ -9,6 +9,6 @@ So for exampl `cats` is a permutation of `acst`, so you would print `Yes` wherea
 neither `cats` nor `catt` are permutations of `cate`, so you would print `No`
 (Hint - use `.length` to find the length of a `String` and the `charAt()`
 method to get the character at a given position in a `String`). Test your solution
-using the `PermuteTest` test.
+using the `J06` test.
 
 Once you have it working, add and commit your work.

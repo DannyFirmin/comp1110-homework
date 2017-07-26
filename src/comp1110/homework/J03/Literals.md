@@ -13,6 +13,6 @@ literal values, as follows:
 * Create a variable `l` of type `long` and assign it the value
  `65`, using the literal `65`. Then print out `l`.
 
-Test your solution using the `LiteralsTest` test.
+Test your solution using the `J03` test.
 
 Once you have it working, add and commit your work.

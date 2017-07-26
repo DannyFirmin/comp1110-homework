@@ -8,6 +8,6 @@ you should not print hours, if it is greater than one hour you should print
 `hours` instead of `hour`. Likewise for minutes; if there are no minutes,
 do not print them, if there is one, print `minute`, and if more than one, print
 `minutes`. (Hint - use the `%` operator). Test your solution using the
-`MovieTest test`.
+`J05` test.
 
 Once you have it working, add and commit your work.

@@ -7,7 +7,6 @@ a list of name, age pairs, a name will be entered without an age (e.g. `Mary`) a
 the user will terminate their input by typing `ctrl-D`, by pressing the control and
 'D' keys (`ctrl-Z` on Windows).  Treat the last name (`Mary` in this example) as a
 query.  Print out the age of the person entered last, or print `unknown` if the
-person's name is unknown (i.e. it did not appear earlier in the list). Test, add,
-and commit your work.
+person's name is unknown (i.e. it did not appear earlier in the list).
 
 Once you have it working, add and commit your work.

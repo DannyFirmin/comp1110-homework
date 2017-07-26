@@ -15,6 +15,6 @@ distribution, and press OK.  You can then press `Cancel` at the bottom of the
 to add Junit to your path).
 * Navigate to your `HelloWorld` class, and modify it so that its main
  method prints `Hello world!`.
-* Test your `HelloWorld` class by selecting the `HelloWorldTest` option in the
+* Test your `HelloWorld` class by selecting the `J01` option in the
   drop-down next to green arrow.
 * Once your `HelloWorld` class passes the tests, commit it to your git repo.

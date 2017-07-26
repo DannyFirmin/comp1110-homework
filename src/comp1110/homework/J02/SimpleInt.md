@@ -9,6 +9,6 @@ project, create a class `SimpleInt` that does the following steps:
 * it divides `i` by `3`
 * it prints out `i`
 
-Test your solution using the `SimpleInt` test.
+Test your solution using the `J02` test.
 
 Once you have it working, add and commit your work.

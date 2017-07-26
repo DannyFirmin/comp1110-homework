@@ -9,6 +9,6 @@ project, create a class `SimpleString` that does the following steps:
 * it concatenates a `"!"` to the end of `s` (use the `+` symbol for string concatenation)
 * it prints out `s`
 
-Test your solution using the `SimpleString` test.
+Test your solution using the `J02` test.
 
 Once you have it working, add and commit your work.
