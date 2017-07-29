@@ -5,7 +5,7 @@ literal values, as follows:
 * Create a variable `f` of type `float` and assign it the value
  `3.14`, using the literal `3.14f`. Then print out `f`.
 * Create a variable `i` of type `int` and assign it the hexadecimal value
- `aff3`, using the literal `0xaff`. Then print out `i`.
+ `aff`, using the literal `0xaff`. Then print out `i`.
 * Create a variable `b` of type `boolean` and assign it the value
  false, using the literal `false`. Then print out `b`.
 * Create a variable `c` of type `char` and assign it the value
