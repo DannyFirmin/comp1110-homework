@@ -2,7 +2,7 @@ Within the `comp1110.homework.O02` package of the `comp1110-homework` project,
 create an enum `Element` that stores information about chemical elements.  You
 only need to implement the first five elements, and you only need to record
 the atomic weight, the group, and the period (listed in the table below).
-* The enum will have a constructor with signature `Element(String name, int weight, int group, int period)`.
+* The enum will have a constructor with signature `Element(int weight, int group, int period)`.
 * The enum will have a private instance field `facts` that is an array of `int`
 * The constructor will initialize the instance field to be an array of size three,
 and then initialize its elements to be the weight, group, and period of
