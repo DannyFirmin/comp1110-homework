@@ -1,15 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="J14" type="JUnit" factoryName="JUnit">
-    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-      <pattern>
-        <option name="PATTERN" value="comp1110.homework.J14.*" />
-        <option name="ENABLED" value="true" />
-      </pattern>
-    </extension>
-    <module name="" />
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <module name="comp1110-homework" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />
-    <option name="PACKAGE_NAME" value="comp1110.homework.J14" />
+    <option name="PACKAGE_NAME" />
     <option name="MAIN_CLASS_NAME" value="comp1110.homework.J14.CostTest" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
