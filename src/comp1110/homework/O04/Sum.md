@@ -5,7 +5,7 @@ class, `Sum` that extends an `ArrayList` of `Integer` by adding a public method,
 `int sum()` that returns the sum of all elements in the list of Integers (add the elements
 up each time the method is called).
 
-Second, one you have the above working properly, *enhance* the solution such that the sum is *stored* and maintained as a public
+Second, once you have the above working properly, *enhance* the solution such that the sum is *stored* and maintained as a public
 instance field of `Sum` (the field is public ). *Instead of recalculating* the total each time the `sum()` method is called, it should just be able to
 *return the value of the sum field*. To do this, you'll need to adjust the value of your sum field each time
 the contents of the array list change.  Note that in order to do this correctly, many
