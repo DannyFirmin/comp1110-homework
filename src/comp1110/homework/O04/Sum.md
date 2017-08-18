@@ -1,5 +1,5 @@
-Within the `comp1110.homework.O04` package of the `comp1110-homework` project, create an
-abstract class, `Sum` that extends an `ArrayList` of `Integer` by adding a public method,
+Within the `comp1110.homework.O04` package of the `comp1110-homework` project, create a
+class, `Sum` that extends an `ArrayList` of `Integer` by adding a public method,
 `int sum()` that returns the sum of all elements in the list of Integers (add the elements
 up each time the method is called).
 
