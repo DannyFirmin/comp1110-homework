@@ -10,7 +10,5 @@ public class SimpleString {
         System.out.println(s);
         s = s + "!";
         System.out.println(s);
-
-
     }
 }
