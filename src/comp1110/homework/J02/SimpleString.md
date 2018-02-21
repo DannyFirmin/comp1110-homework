@@ -1,6 +1,6 @@
 Within the `comp1110.homework.J02` package of the `comp1110-homework`
 project, create a class `SimpleString` that does the following steps:
-* it declares an String, `s` and initializes it to empty string (`''`)
+* it declares an String, `s` and initializes it to empty string (`''`) Fix: it should be ""
 * it  prints out `s` (using `system.out.println()`)
 * it assigns `"Foo"` to `s` (use the `=` sign for assignment)
 * it prints out `s`
