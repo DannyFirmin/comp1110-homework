@@ -16,8 +16,8 @@ public class Prime {
                     break;
                 }
             }
-            if (primeYes)
-                System.out.println(i);
+            if (primeYes){
+                System.out.println(i);}
             primeYes = true;
 
         }
