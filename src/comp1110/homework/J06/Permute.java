@@ -1,101 +1,65 @@
 package comp1110.homework.J06;
-
-import java.util.HashMap;
-import java.util.Map;
+//I improve my code for a lot of times to make it better and better. The last improvement is guided by my friend.
+//import java.util.HashMap;
 import java.util.Scanner;
 
-public class Permute {
+class Permute {
+
+    private String a, b;
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String a = in.nextLine();
         String b = in.nextLine();
-        boolean result = isPermute(a, b);
-    }
-
-    public static boolean isPermute(String origin, String target) {
-
-        if (origin.length() != target.length()) {
+        if (new Permute(a, b).magic() == true) {
+            System.out.println("Yes");
+        } else {
             System.out.println("No");
-            return false;
+        }
+    }
+
+    public Permute(String a, String b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    private boolean magic() {
+        int a1, a2, b1, b2;
+        a1 = a2 = b1 = b2 = 0;
+
+        for (char c : a.toCharArray()) {
+            a1 += c;
+            a2 |= c;
+        }
+        for (char c : b.toCharArray()) {
+            b1 += c;
+            b2 |= c;
         }
 
-        //Every letters in target string should contain in origin string
-        int length = origin.length();
-        Map<Character, Integer> targetCount = new HashMap<Character, Integer>();
-        for (int i = 0; i < length; i++) {
-            char c = target.charAt(i);
-            //any letter in target string but not in origin string, print no
-            int indexOfOrigin = origin.indexOf(c);
-            //indexOf 方法返回一个整数值，指出 String 对象内子字符串的开始位置。如果没有找到子字符串，则返回-1
-            if (indexOfOrigin == -1) {
-                System.out.println("No");
-                return false;
-            }
-
-            //统计该串在本串中的个数
-            if (targetCount.get(c) == null) {
-                targetCount.put(c, 1);
-            } else {
-                Integer count = targetCount.get(c);
-                targetCount.put(c, 1 + count);
-            }
-        }
-
-        //统计原串中各个字符的个数
-        Map<Character, Integer> originCount = new HashMap<Character, Integer>();
-        for (int i = 0; i < length; i++) {
-            char c = origin.charAt(i);
-            if (originCount.get(c) == null) {
-                originCount.put(c, 1);
-            } else {
-                Integer count = originCount.get(c);
-                originCount.put(c, 1 + count);
-            }
-        }
-
-        //目标串中每个字符个数跟原串中对应字符的个数一样
-        for (Map.Entry<Character, Integer> entry : targetCount.entrySet()) {
-            Character key = entry.getKey();
-            if (entry.getValue() != originCount.get(key)) {
-                System.out.println("No");
-                return false;
-            }
-        }
-
-        //all letter match (number and content)
-        System.out.println("Yes");
-        return true;
+        return ((a1 == b1) && (a2 == b2) == true);
     }
 }
+// private String isPermute() {
+//     return checker() ? "Yes" : "No";
+// }
 
-/* the code above is not written by me. I google it. I just did the editing work.
+// private boolean checker() {
+//     HashMap<Character, Integer> map = new HashMap<>();
 
-my code is here. but it doesn't work (incomplete)
-package comp1110.homework.J06;
+//     for (char c : a.toCharArray()) {
+//         if (!map.containsKey(c)) {
+//             map.put(c, 0);
+//         }
+//         map.put(c, map.get(c) + 1);
+//     }
 
+//     for (char c : b.toCharArray()) {
+//         if (!map.containsKey(c) || map.get(c) <= 0) {
+//             return false;
+//         }
+//         map.put(c, map.get(c) - 1);
+//     }
 
+//     return true;
+// }
 
-import java.util.Scanner;
-
-public class Permute2 {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String origin = in.nextLine();
-        String permute = in.nextLine();
-        int o = origin.length();
-        int p = permute.length();
-            if ((o != p) || (origin == permute)) {
-                System.out.println("No");
-                return;
-            }
-
-            for (int i = 0; i <= o; i++)
-            if ((origin.charAt(i) == permute.charAt(i))) {
-                System.out.println("Yes");
-                break;
-            }
-
-    }
-}
- */
