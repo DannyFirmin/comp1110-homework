@@ -5,6 +5,14 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Permute {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String a = in.nextLine();
+        String b = in.nextLine();
+        boolean result = isPermute(a, b);
+    }
+
     public static boolean isPermute(String origin, String target) {
 
         if (origin.length() != target.length()) {
@@ -58,13 +66,6 @@ public class Permute {
         //all letter match (number and content)
         System.out.println("Yes");
         return true;
-    }
-
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String a = in.nextLine();
-        String b = in.nextLine();
-        boolean result = isPermute(a, b);
     }
 }
 

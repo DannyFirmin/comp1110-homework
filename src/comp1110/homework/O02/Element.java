@@ -1,44 +1,36 @@
 package comp1110.homework.O02;
 
-public enum Element {
+enum Element {
     H(1, 1, 1),
     He(2, 18, 1),
     Li(3, 1, 2),
     Be(4, 2, 2),
     B(5, 13, 2);
-    private final int weight;
-    private final int group;
-    private final int period;
-
-    Element(int weight, int group, int period) {
-        this.weight = weight;
-        this.group = group;
-        this.period = period;
-    }
-
-    private int weight() {
-        return weight;
-    }
-
-    private int group() {
-        return group;
-    }
-
-    private int period() {
-        return period;
-    }
 
     private int facts[];
 
-    public static void getFacts() {
-        Element facts[] = Element.values();
-        for (int i = 0; i < facts.length; i++) {
-            System.out.println(facts[i]);
+    Element(int weight, int group, int period) {
+        this.facts = new int[]{weight, group, period};
+    }
+
+    public int[] getFacts() {
+        return this.facts;
+    }
+
+    @Override
+    public String toString() {
+        String str = "";
+        for (int n : facts) {
+            str += n + " ";
         }
+        return str;
     }
 
     public static void main(String[] args) {
-        getFacts();
+        Element elements[] = Element.values();
+        for (Element e : elements) {
+            System.out.println(e);
+        }
     }
 }
-
+//taught and improved by my friends

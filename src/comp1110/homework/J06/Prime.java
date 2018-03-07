@@ -7,18 +7,18 @@ public class Prime {
         Scanner in = new Scanner(System.in);
         int n;
         n = in.nextInt();
-        boolean primeYes = true;
+        boolean isPrime = true;
 
         for (int i = 2; i <= n; i++) {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
-                    primeYes = false;
+                    isPrime = false;
                     break;
                 }
             }
-            if (primeYes){
+            if (isPrime){
                 System.out.println(i);}
-            primeYes = true;
+            isPrime = true;
 
         }
     }
