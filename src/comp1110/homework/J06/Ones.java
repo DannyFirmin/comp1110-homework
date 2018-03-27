@@ -7,12 +7,12 @@ public class Ones {
         Scanner in = new Scanner(System.in);
 
         int i = in.nextInt();
-        int jishu = 0;
+        int count = 0;
         while (i != 0) {
             i = i & (i - 1);
-            jishu++;
+            count++;
         }
-        System.out.println(jishu);
+        System.out.println(count);
     }
 }
 
