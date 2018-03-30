@@ -1,7 +1,5 @@
 package comp1110.homework.J04;
 
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
-
 import java.util.Scanner;
 
 public class Name {
