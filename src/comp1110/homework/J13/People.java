@@ -1,9 +1,7 @@
 package comp1110.homework.J13;
 
 import java.util.Scanner;
-import javax.management.Query;
 import java.util.HashMap;
-import java.util.NoSuchElementException;
 
 
 public class People {
