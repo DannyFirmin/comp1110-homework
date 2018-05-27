@@ -13,8 +13,11 @@ and the number of days it takes to reorder the stock.
 * Implement another instance method `HashMap reorder()` which returns a hash map
 listing the name (key) and number (value) of all of the items that need to be reordered
 today in order to ensure that the expected number of stock is always at least one
-(ie sufficient to last until the order arrives, assuming average sales). Whenever an
+(i.e. sufficient to last until the order arrives, assuming average sales). Whenever an
 item is ordered, seven days worth of average sales minus the current stock of that
-item is always ordered.
+item is always ordered. For example, if the current `stock` of "Peanut Butter" is 38, 
+`rate` is 8 and `reorderdays` is 5, "Peanut Butter" must be reordered today 
+(as 38 <= 5\*8).
+The number of units of "Peanut Butter" to be reordered is (7\*8-38) = 18.
 
 Once you have it working, add and commit your work.
